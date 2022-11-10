@@ -169,7 +169,6 @@ apt-get install squid -y
 service squid start
 service squid status
 ```
-### 3. Client yang melalui Switch1 mendapatkan range IP dari [prefix IP].1.50 - [prefix IP].1.88 dan [prefix IP].1.120 - [prefix IP].1.155
 #### Ostania (DHCP Relay )
 ```
 apt-get update #opsional
@@ -186,7 +185,7 @@ OPTIONS="”
 ```
 service isc-dhcp-relay restart
 ```
-
+### 3. Client yang melalui Switch1 mendapatkan range IP dari [prefix IP].1.50 - [prefix IP].1.88 dan [prefix IP].1.120 - [prefix IP].1.155
 ### 4. Client yang melalui Switch3 mendapatkan range IP dari [prefix IP].3.10 - [prefix IP].3.30 dan [prefix IP].3.60 - [prefix IP].3.85
 #### Westalis (DHCP Server)
 ```
